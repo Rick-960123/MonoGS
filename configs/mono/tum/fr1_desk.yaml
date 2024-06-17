@@ -1,7 +1,7 @@
 inherit_from: "configs/mono/tum/base_config.yaml"
 
 Dataset:
-  dataset_path: "datasets/tum/rgbd_dataset_freiburg1_desk/"
+  dataset_path: "/home/rick/robotCS/src/mapping/packages/SplaTAM/data/TUM_RGBD/rgbd_dataset_freiburg1_desk/"
   Calibration:
     fx: 517.306408
     fy: 516.469215

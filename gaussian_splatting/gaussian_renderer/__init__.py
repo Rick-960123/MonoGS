@@ -12,6 +12,9 @@
 import math
 
 import torch
+import sys
+sys.path.insert(0 , "/home/rick/robotCS/src/mapping/packages/MonoGS/submodules/diff-gaussian-rasterization")
+
 from diff_gaussian_rasterization import (
     GaussianRasterizationSettings,
     GaussianRasterizer,

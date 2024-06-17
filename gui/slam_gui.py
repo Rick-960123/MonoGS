@@ -95,13 +95,13 @@ class SLAM_GUI:
 
         self.window.add_child(self.widget3d)
 
-        self.lit = rendering.MaterialRecord()
+        self.lit = rendering.Material()
         self.lit.shader = "unlitLine"
 
-        self.lit_geo = rendering.MaterialRecord()
+        self.lit_geo = rendering.Material()
         self.lit_geo.shader = "defaultUnlit"
 
-        self.specular_geo = rendering.MaterialRecord()
+        self.specular_geo = rendering.Material()
         self.specular_geo.shader = "defaultLit"
 
         self.axis = o3d.geometry.TriangleMesh.create_coordinate_frame(

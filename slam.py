@@ -20,7 +20,9 @@ from utils.logging_utils import Log
 from utils.multiprocessing_utils import FakeQueue
 from utils.slam_backend import BackEnd
 from utils.slam_frontend import FrontEnd
-
+import sys
+sys.path.insert(0, '/home/rick/robotCS/src/mapping/packages/MonoGS/submodules/diff-gaussian-rasterization')
+sys.path.insert(0, '/home/rick/robotCS/src/mapping/packages/MonoGS/submodules/simple-knn')
 
 class SLAM:
     def __init__(self, config, save_dir=None):
